@@ -15,10 +15,10 @@ Tracking details
 ----|-----|----------|-----------------|--------------|-------|------------
  Y  |     | Event    | View Details    | `event.name` |       | User clicks on an event card to see a more detailed view/description.
  Y  |     | Event    | Favorite        | `event.name` |       | User marks the event as favorited/starred.
-    |     | Guest    | View Details    | [guest name] |       | User clicks on a guest name to see a the full bio info.
-    |     | Home     | Suggested Click | `event.name` |       | User clicks on a suggested event from the home page.
-    |     | Settings | Notifications   |              | 0|1   | User has enabled or disabled notifications. 0=off 1=on
-    | N/A | Settings | Dev-enable      |              |       | User enabled developer options.
+ Y  |     | Guest    | View Details    | [guest name] |       | User clicks on a guest name to see a the full bio info.
+ Y  |     | Home     | Suggested Click | `event.name` |       | User clicks on a suggested event from the home page.
+ Y  |     | Settings | Notifications   |              | 0|1   | User has enabled or disabled notifications. 0=off 1=on
+ Y  | N/A | Settings | Dev-enable      |              |       | User enabled developer options.
 
 
 ### Screens
@@ -31,8 +31,8 @@ Tracking details
  Y  |     | Favorites    | List of panels/events that the user has starred.
  Y  |     | Guests       | List of the official guests for the con.
  Y  |     | Guest Detail | Full details about a single guest.
-    |     | Map          | Hotel floor plan map.
-    |     | Settings     | Application specific preferences.
+ Y  |     | Map          | Hotel floor plan map.
+ Y  |     | Settings     | Application specific preferences.
 
 
 ### Key
