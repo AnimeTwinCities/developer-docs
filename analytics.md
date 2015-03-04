@@ -15,6 +15,7 @@ Tracking details
 ----|-----|----------|-----------------|--------------|-------|------------
  Y  |     | Event    | View Details    | `event.name` |       | User clicks on an event card to see a more detailed view/description.
  Y  |     | Event    | Favorite        | `event.name` |       | User marks the event as favorited/starred.
+    |     | Event    | Unfavorite      | `event.name` |       | User marks the favorite event as not favorited/not starred.
  Y  |     | Guest    | View Details    | [guest name] |       | User clicks on a guest name to see a the full bio info.
  Y  |     | Home     | Suggested Click | `event.name` |       | User clicks on a suggested event from the home page.
  Y  |     | Settings | Notifications   |              | 0|1   | User has enabled or disabled notifications. 0=off 1=on
