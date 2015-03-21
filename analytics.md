@@ -13,12 +13,12 @@ Tracking details
 
 [A] | [I] | Category | Action          | Label        | Value | Description
 ----|-----|----------|-----------------|--------------|-------|------------
- Y  |     | Event    | View Details    | `event.name` |       | User clicks on an event card to see a more detailed view/description.
- Y  |     | Event    | Favorite        | `event.name` |       | User marks the event as favorited/starred.
-    |     | Event    | Unfavorite      | `event.name` |       | User marks the favorite event as not favorited/not starred.
- Y  |     | Guest    | View Details    | [guest name] |       | User clicks on a guest name to see a the full bio info.
- Y  |     | Home     | Suggested Click | `event.name` |       | User clicks on a suggested event from the home page.
- Y  |     | Settings | Notifications   |              | 0|1   | User has enabled or disabled notifications. 0=off 1=on
+ Y  |  Y  | Event    | View Details    | `event.name` |       | User clicks on an event card to see a more detailed view/description.
+ Y  |  Y  | Event    | Favorite        | `event.name` |       | User marks the event as favorited/starred.
+    |  Y  | Event    | Unfavorite      | `event.name` |       | User marks the favorite event as not favorited/not starred.
+ Y  |  Y  | Guest    | View Details    | [guest name] |       | User clicks on a guest name to see a the full bio info.
+ Y  | N/A | Home     | Suggested Click | `event.name` |       | User clicks on a suggested event from the home page.
+ Y  |  Y  | Settings | Notifications   |              | 0|1   | User has enabled or disabled notifications. 0=off 1=on
  Y  | N/A | Settings | Dev-enable      |              |       | User enabled developer options.
 
 
@@ -26,14 +26,14 @@ Tracking details
 
 [A] | [I] | Name         | Description
 ----|-----|--------------|------------
- Y  |     | Home         | The initial overview/landing page.
- Y  |     | Event        | Full Details about a single event.
- Y  |     | Schedule     | List of all the programming events & panels.
- Y  |     | Favorites    | List of panels/events that the user has starred.
- Y  |     | Guests       | List of the official guests for the con.
- Y  |     | Guest Detail | Full details about a single guest.
- Y  |     | Map          | Hotel floor plan map.
- Y  |     | Settings     | Application specific preferences.
+ Y  | N/A | Home         | The initial overview/landing page.
+ Y  |  Y  | Event        | Full Details about a single event.
+ Y  |  Y  | Schedule     | List of all the programming events & panels.
+ Y  |  Y  | Favorites    | List of panels/events that the user has starred.
+ Y  |  Y  | Guests       | List of the official guests for the con.
+ Y  |  Y  | Guest Detail | Full details about a single guest.
+ Y  |  Y  | Map          | Hotel floor plan map.
+ Y  |  Y  | Settings     | Application specific preferences.
 
 
 ### Key
